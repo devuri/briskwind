@@ -1,17 +1,17 @@
 {
-    "name": "brisklywind",
+    "name": "briskwind",
     "description": "Lightweight Starter Theme, based on Tailwind",
     "version": "0.0.1",
     "main": "index.js",
     "license": "MIT",
     "author": "Uriel Wilson",
-    "homepage": "https://github.com/devuri/brisklywind",
+    "homepage": "https://github.com/devuri/briskwind",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/devuri/brisklywind.git"
+        "url": "git+https://github.com/devuri/briskwind.git"
     },
     "bugs": {
-        "url": "https://github.com/devuri/brisklywind/issues"
+        "url": "https://github.com/devuri/briskwind/issues"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.3",
