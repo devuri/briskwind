@@ -1,8 +1,8 @@
 {
     "name": "brisklywind",
     "description": "Lightweight Starter Theme, based on Tailwind",
-	"version": "0.0.1",
-	"main": "index.js",
+    "version": "0.0.1",
+    "main": "index.js",
     "license": "MIT",
     "author": "Uriel Wilson",
     "homepage": "https://github.com/devuri/brisklywind",
@@ -14,10 +14,15 @@
         "url": "https://github.com/devuri/brisklywind/issues"
     },
     "devDependencies": {
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.9",
+        "prettier": "^2.8.3",
+        "prettier-plugin-tailwindcss": "^0.2.1",
         "tailwindcss": "^3.1.4"
     },
     "scripts": {
-	    "watch": "npx tailwindcss -i ./src/assets/input.css -o ./assets/dist/css/output.css --watch",
-	    "build": "npx tailwindcss -i ./src/assets/input.css -o ./assets/dist/css/output.css"
+        "watch": "npx tailwindcss -i ./src/assets/input.css -o ./assets/dist/css/output.css --watch",
+        "build": "npx tailwindcss -i ./src/assets/input.css -o ./assets/dist/css/output.css --minify",
+        "ex-config": "npx tailwind -i tailwind-full.config.js --full"
     }
 }
