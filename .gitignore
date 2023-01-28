@@ -10,5 +10,6 @@ assets/dist/
 .env.backup
 .phpunit.result.cache
 .phpdoc/cache/
+package-lock.json
 npm-debug.log
 yarn-error.log
